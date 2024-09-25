@@ -1,4 +1,3 @@
-// src/Navbar.js
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -25,6 +24,9 @@ export default function Navbar() {
           <Link to="/contact" className="text-[#000000] px-4 text-lg hover:underline bg-transparent border-none cursor-pointer" style={{ fontFamily: 'Poppins', fontWeight: 'bold' }}>
             Contact
           </Link>
+          <Link to="/newpage" className="text-[#000000] px-4 text-lg hover:underline bg-transparent border-none cursor-pointer" style={{ fontFamily: 'Poppins', fontWeight: 'bold' }}>
+            Project
+          </Link> {/* Add the new link */}
         </div>
         <div className="flex items-center">
           {resume ? (
